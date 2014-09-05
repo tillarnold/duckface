@@ -8,7 +8,7 @@
 > Duck typing interfaces
 
 duckface gives you the power of interfaces from languages like java.
-But since JavaScript users duck typing we won't call it an interface
+But since JavaScript uses duck typing we won't call it an interface
 but a duckface.
 
 ```js
@@ -29,7 +29,8 @@ function myApiFunction(objectWithGetAndSet) {
 
 ## duckface
 
-There are two important functions in duckface.
+There are two important functions in duckface:
+`hasFunctions` and `ensureHasFunctions`.
 
 ### duckface.hasFunctions(object, functions)
 
@@ -60,5 +61,4 @@ that looks like this:
   functions: ["function1","function2","function3"],   //the functions array passed to ensureHasFunctions
   missingFunctions: ["function2"]                     //All functions missing in the given object
 };
-
 ```
