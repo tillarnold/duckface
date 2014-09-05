@@ -3,8 +3,13 @@
 [![devDependency Status](https://david-dm.org/tillarnold/duckface/dev-status.svg)](https://david-dm.org/tillarnold/duckface#info=devDependencies)
 [![Coverage Status](https://coveralls.io/repos/tillarnold/duckface/badge.png?branch=master)](https://coveralls.io/r/tillarnold/duckface?branch=master)
 
-duckface
+#duckface
 
+> Duck typing interfaces
+
+duckface gives you the power of interfaces from languages like java.
+But since JavaScript users duck typing we won't call it an interface
+but a duckface.
 
 ```js
 var duckface = require('duckface');
@@ -16,13 +21,15 @@ var duckface = require('duckface');
  */
 function myApiFunction(objectWithGetAndSet) {
   duckface.ensureHasFunctions(objectWithGetAndSet, ["get","set"],
-    DuckFace.IS_MISSING_THE_FUNCTIONS("The parameter for the function myApiFunction"));
+    DuckFace.IS_MISSING_THE_FUNCTIONS(
+      "The parameter for the function myApiFunction"
+    )); //if we don't get all the required functions: throw an error
 }
 ```
 
 ## duckface
 
-There are two important functions in duckface
+There are two important functions in duckface.
 
 ### duckface.hasFunctions(object, functions)
 
