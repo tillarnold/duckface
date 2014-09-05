@@ -1,9 +1,9 @@
+#duckface
+[![NPM version](https://badge.fury.io/js/duckface.svg)](http://badge.fury.io/js/duckface)
 [![Code Climate](https://codeclimate.com/github/tillarnold/duckface/badges/gpa.svg)](https://codeclimate.com/github/tillarnold/duckface)
 [![Build Status](https://travis-ci.org/tillarnold/duckface.svg?branch=master)](https://travis-ci.org/tillarnold/duckface)
 [![devDependency Status](https://david-dm.org/tillarnold/duckface/dev-status.svg)](https://david-dm.org/tillarnold/duckface#info=devDependencies)
 [![Coverage Status](https://coveralls.io/repos/tillarnold/duckface/badge.png?branch=master)](https://coveralls.io/r/tillarnold/duckface?branch=master)
-
-#duckface
 
 > Duck typing interfaces
 
