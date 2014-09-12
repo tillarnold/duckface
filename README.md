@@ -58,7 +58,12 @@ that looks like this:
 
 ```js
 {
-  functions: ["function1","function2","function3"],   //the functions array passed to ensureHasFunctions
-  missingFunctions: ["function2"]                     //All functions missing in the given object
+  //the functions array passed to ensureHasFunctions
+  functions: ["function1","function2","function3"], 
+  //All functions missing in the given object
+  missingFunctions: ["function2"]
 };
 ```
+## Release History
+
+* 2014-09-05   v0.0.1   Initial version.
