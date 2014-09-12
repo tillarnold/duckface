@@ -20,8 +20,5 @@
     "tape": "^2.14.0",
     "istanbul": "~0.3.0",
     "coveralls": "~2.11.1"
-  },
-  "dependencies": {
-    "lodash.isfunction": "^2.4.1"
   }
 }
