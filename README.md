@@ -65,5 +65,5 @@ that looks like this:
 };
 ```
 ## Release History
-
+* 2014-09-12   v0.1.0   Remove lodash dependency
 * 2014-09-05   v0.0.1   Initial version.
