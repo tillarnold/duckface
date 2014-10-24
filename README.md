@@ -16,14 +16,14 @@ var duckface = require('duckface');
 
 /**
  * This is a function that requires
- * an Object as a parameter. This object
- * must have a set and a get function.
+ * an object as a parameter. This object
+ * must have a `set` and a `get` function.
  */
 function myApiFunction(objectWithGetAndSet) {
   duckface.ensureHasFunctions(objectWithGetAndSet, ["get","set"],
-    DuckFace.IS_MISSING_THE_FUNCTIONS(
+    duckface.IS_MISSING_THE_FUNCTIONS(
       "The parameter for the function myApiFunction"
-    )); //if we don't get all the required functions: throw an error
+    )); // if we don't get all the required functions: throw an error
 }
 ```
 
@@ -58,9 +58,9 @@ that looks like this:
 
 ```js
 {
-  //the functions array passed to ensureHasFunctions
+  // the functions array passed to ensureHasFunctions
   functions: ["function1","function2","function3"], 
-  //All functions missing in the given object
+  // all functions missing in the given object
   missingFunctions: ["function2"]
 };
 ```
